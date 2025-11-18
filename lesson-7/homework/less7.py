@@ -6,10 +6,10 @@ def is_prime(n):
 
     while b*b <= n:
         if n % b == 0:
-            return f'{n} is not prime'
+            return False
         b += 1
 
-    return f'{n} is prime'
+    return True
 
 is_prime(15)
 
